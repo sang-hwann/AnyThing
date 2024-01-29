@@ -21,8 +21,4 @@ public class UserSignUpRequest {
 
     private String userNickName;
 
-    private LocalDateTime userBirthDate;
-
-    private String userGender;
-
 }

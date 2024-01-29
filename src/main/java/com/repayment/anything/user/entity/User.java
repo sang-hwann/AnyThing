@@ -45,14 +45,11 @@ public class User {
 
 
     //생성자
-    public User(UserSignUpRequest userSignUpRequest) {
+    public User(UserSignUpRequest userSignUpRequest, String userPassWord) {
         this.userEmail = userSignUpRequest.getUserEmail();
-        this.userPassWord = userSignUpRequest.getUserPassWord();
+        this.userPassWord = userPassWord;
         this.userName = userSignUpRequest.getUserName();
         this.userNickName = userSignUpRequest.getUserNickName();
-        this.userBrithDate = userSignUpRequest.getUserBirthDate();
-        this.userGender = userSignUpRequest.getUserGender();
-
     }
 
     public User() {
